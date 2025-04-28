@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.home {
+  background-image: url('/assets/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.products-page, .cart-page {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card, .cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.product-card img, .cart-item img {
+  width: 150px;
+}
+
+.header {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+.header nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
